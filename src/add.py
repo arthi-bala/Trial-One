@@ -6,5 +6,5 @@ def add(num: int, number: int) -> int:
     return num + number
 
 
-RES = add(5, 6)
+RES = add(5, "6")
 print(RES)

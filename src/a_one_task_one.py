@@ -21,5 +21,4 @@ def reverse_words(input_str: str) -> str:
     string_array = input_str[::-1].split(" ")[::-1]
     return " ".join(string_array)
 
-
 print(reverse_words("Hi this is just to check the reverse words function"))
